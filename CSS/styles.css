@@ -30,14 +30,22 @@ hr {
   background-color: none;
   border-style: dotted none none;
   border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%
+  border-color: #fddede;
+  border-width: 10px;
+  width: 3%
 }
 h1 {
   font-family: Gill Sans, sans-serif;
   font-weight: 100;
   font-size: 40px;
+  margin: auto;
+  padding: 20px;
+}
+.h3-new {
+  display: inline-block;
+  font-family: Gill Sans, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
   margin: auto;
   padding: 20px;
 }
