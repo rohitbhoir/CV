@@ -41,12 +41,17 @@ h1 {
   margin: auto;
   padding: 20px;
 }
-.h3-new {
+h3 {
   display: inline-block;
+  position: relative;
   font-family: Gill Sans, sans-serif;
   font-weight: 100;
   font-size: 25px;
   margin: auto;
+  /* margin-inline-start:auto;
+  margin-inline-end: auto;
+  margin-block-start: auto;
+  margin-block-end: auto; */
   padding: 20px;
 }
 .circular {
