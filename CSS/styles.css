@@ -1,26 +1,26 @@
 
 .top-container {
-  background-color: #9be3de;
+  background-color: #272343;
   padding: 20px;
-  margin: 0px;
+  margin: auto;
   width:100%;
 }
 .second-container {
-  background-color: #beebe9;
+  background-color: #ffffff;
   padding: 20px;
-  margin: 0px;
+  margin: auto;
   width:100%;
 }
 .third-container {
-  background-color: #fffdf9;
+  background-color: #e3f6f5;
   padding: 20px;
-  margin: 0px;
+  margin: auto;
   width:100%;
 }
 .fourth-container {
-  background-color: #ffe3ed;
-  padding: 20px;
-  margin: 0px;
+  background-color: #bae8e8;
+  padding: 10px;
+  margin: auto;
   width:100%;
 }
 body {
@@ -30,23 +30,34 @@ hr {
   background-color: none;
   border-style: dotted none none;
   border-top-style: dotted;
-  border-color: #fddede;
+  border-color: #dff6f0;
   border-width: 10px;
   width: 3%
 }
 h1 {
-  font-family: Gill Sans, sans-serif;
+  /* font-family: Gill Sans, sans-serif; */
+  font-family: 'Quicksand', sans-serif;
   font-weight: 100;
   font-size: 40px;
   margin: auto;
   padding: 20px;
 }
 h3 {
+  padding: 50px;
   display: inline-block;
   position: relative;
-  font-family: Gill Sans, sans-serif;
-  font-weight: 100;
-  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600 ;
+  font-size: 40px;
+  margin: auto;
+}
+h4 {
+  display: inline-block;
+  position: relative;
+  /* font-family: Gill Sans, sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600 ;
+  font-size: 18px;
   margin: auto;
   /* margin-inline-start:auto;
   margin-inline-end: auto;
@@ -75,11 +86,12 @@ h3 {
   color: white;
 }
 .dark {
-  color: #36b5b0;
+  color: #272343;
 }
 .para {
   display: block;
-  font-family: Gill Sans, sans-serif;
+  /* font-family: Gill Sans, sans-serif; */
+  font-family: 'Quicksand', sans-serif;
   font-weight: 100;
   font-size: 20px;
   margin-left: auto;
@@ -88,4 +100,30 @@ h3 {
   margin-bottom: 0px;
   padding: 10px;
   width: 50%
+}
+.button {
+  background-color: #272343;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #272343;
+  color: white;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #272343;
+  color: white;
 }

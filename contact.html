@@ -5,33 +5,35 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h3>Contact Me</h3>
-  <table cellspacing="20px">
-    <tr>
-      <td>Phone</td>
-      <td>+91 98206 XXXXX</td>
-    </tr>
-    <tr>
-      <td>eMail</td>
-      <td><a href="mailto:rohit.bhoir@gmail.com?subject=feedback">rohit.bhoir@gmail.com</a></td>
-    </tr>
-  </table>
+  <div class="top-container center">
+    <h3 class="light center">Contact Me</h3>
+  </div>
+  <div class="second-container">
+    <p class="para dark center">Phone: +91 98206 XXXXX</p>
+    <p class="para dark center">eMail:&nbsp<a href="mailto:rohit.bhoir@gmail.com?subject=Website Feedback">rohit.bhoir@gmail.com</a> </p>
+  </div>
+  <div class="third-container">
+    <form class="center" action="mailto:rohit.bhoir@gmail.com" method="post" enctype="text/plain">
+      <p class="para dark center"><label for="">Your Name</label>
+        <input type="text" name="youName" value=""></p>
+      <p class="para dark center" ><label for="">Your Email</label>
+        <input type="email" name="yourEmail" value=""></p>
+      <p class="para dark center"><label for="">Your Message:</label> <br>
+        <textarea name="yourMessage" rows="10" cols="100"></textarea></p>
+      <input type="submit" name="" class="button">
+    </form>
 
-  <hr>
-  <form action="mailto:rohit.bhoir@gmail.com" method="post" enctype="text/plain">
-    <p><label for="">Your Name</label>
-      <input type="text" name="youName" value=""></p>
-    <p><label for="">Your Email</label>
-      <input type="email" name="yourEmail" value=""></p>
-    <p><label for="">Your Message:</label> <br>
-      <textarea name="yourMessage" rows="10" cols="30"></textarea></p>
-    <input type="submit" name="">
-  </form>
-  <hr>
-  <a href="index.html">Home</a>
+  </div>
+
+  <div class="fourth-container" align="center">
+    <a href="index.html"><h4 class="dark center">Home</h4></a>
+    <p class="para center">&copyRohit Bhoir 2019</p>
+  </div>
+
 </body>
 
 </html>
