@@ -4,38 +4,45 @@
 <head>
   <meta charset="utf-8">
   <title>Rohit Bhoir</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a href="#"><img class="navbar-brand circular" src="images/Rohit_Avatar1.png" alt="" width="50px"></a>
-    <div class="collapse navbar-collapse" id="">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light container">
+    <a class="navbar-brand" href="#"><img class="circular" src="images/Rohit_Avatar1.png" alt="" width="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav ml-auto">
-        <li class="navbar-item">
-          <a class="navbar-link" href="experience.html">Professional Experience</a>
+        <li class="nav-item">
+          <a class="nav-link" href="experience.html">Professional Experience</a>
         </li>
-        <li class="navbar-item">
-          <a class="navbar-link" href="contact.html">Contact Me</a>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Me</a>
         </li>
       </ul>
-      </div>
+    </div>
   </nav>
 
-  <div class="top-container">
+  <div class="top-container container">
     <img class="dp circular center" src="images/Rohit_Avatar1.png" alt="Rohit Bhoir">
     <h1 class="h1 light center"> Hi! I'm Rohit </h1>
 
   </div>
-  <div class="second-container">
+  <div class="second-container container">
     <h1 class="h1 dark center">About Me</h1>
     <p class=" para dark center">I'm a Project Manager based out of Mumbai, India; a Game Programming Enthusiast and am currently exploring the AI/ ML space</p>
   </div>
 
-  <div class="third-container">
+  <div class="third-container container">
     <h1 class="h1 dark center">Some of my Certifications</h1>
     <p class="para dark center">PMI-Project Management Professional&reg, PMI-Agile Certified Practitioner&reg, PRINCE2&reg,</p>
     <p class="para dark center">Lean Six Sigma Green Belt, ITIL&reg-Foundation</p>
@@ -52,7 +59,7 @@
     <h1 class="h1 dark center">I'm still learning</h1>
     <p class="para dark center">AI/ML - Scikit-learn, Tensorflow</p>
   </div>
-  <div class="fourth-container" align="center">
+  <div class="fourth-container container" align="center">
     <a href="experience.html">
       <h4 class="dark center">Professional Experience</h4>
     </a>
@@ -60,9 +67,6 @@
       <h4 class="dark center">Contact Me</h4>
     </a>
     <p class="para center">&copyRohit Bhoir 2019</p>
-    <!-- <a href="hobby.html">
-      <h4 class="dark center">My Hobbies</h3>
-    </a> -->
   </div>
 
 
