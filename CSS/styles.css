@@ -3,25 +3,25 @@
   background-color: #36b5b0;
   padding: 1em;
   margin: auto;
-  width: 100%
+  width: 100%;
 }
 .second-container {
   background-color: #9dd8c8;
   padding: 1em;
   margin: auto;
-  width: 100%
+  width: 100%;
 }
 .third-container {
   background-color: #f09595;
   padding: 1em;
   margin: auto;
-  width: 100%
+  width: 100%;
 }
 .fourth-container {
   background-color: #fcf5b0;
-  padding: 0.6em;
+  padding: 0.6em 1em 0.2em;
   margin: auto;
-  width: 100%
+  width: 100%;
 }
 body {
   margin: 0px;
@@ -53,7 +53,14 @@ h4 {
   display: inline-block;
   position: relative;
   font-weight: 600 ;
-  font-size: 1em;
+  font-size: 1.2em;
+  margin: auto;
+  padding: 1.5em;
+}
+h5 {
+  position: relative;
+  font-weight: 600 ;
+  font-size: 0.5em;
   margin: auto;
   padding: 1.5em;
 }
@@ -116,4 +123,13 @@ input[type=email] {
   box-sizing: border-box;
   background-color: #272343;
   color: white;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 600px) {
+/* Styles */
+
+.top-container {width :500px!important;}
+
 }
