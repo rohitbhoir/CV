@@ -1,27 +1,23 @@
 
 .top-container {
   background-color: #36b5b0;
-  padding: 20px;
+  padding: 1em;
   margin: auto;
-  width:100%;
 }
 .second-container {
   background-color: #9dd8c8;
-  padding: 20px;
+  padding: 1em;
   margin: auto;
-  width:100%;
 }
 .third-container {
   background-color: #f09595;
-  padding: 20px;
+  padding: 1em;
   margin: auto;
-  width:100%;
 }
 .fourth-container {
   background-color: #fcf5b0;
-  padding: 10px;
+  padding: 0.6em;
   margin: auto;
-  width:100%;
 }
 body {
   margin: 0px
@@ -31,24 +27,23 @@ hr {
   border-style: dotted none none;
   border-top-style: dotted;
   border-color: #dff6f0;
-  border-width: 10px;
+  border-width: 0.6em;
   width: 3%
 }
 h1 {
-  /* font-family: Gill Sans, sans-serif; */
   font-family: 'Quicksand', sans-serif;
-  font-weight: 100;
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 1em;
   margin: auto;
-  padding: 20px;
+  padding: 1em;
 }
 h3 {
-  padding: 50px;
+  padding: 1em;
   display: inline-block;
   position: relative;
   font-family: 'Quicksand', sans-serif;
   font-weight: 600 ;
-  font-size: 40px;
+  font-size: 1em;
   margin: auto;
 }
 h4 {
@@ -57,13 +52,9 @@ h4 {
   /* font-family: Gill Sans, sans-serif; */
   font-family: 'Quicksand', sans-serif;
   font-weight: 600 ;
-  font-size: 18px;
+  font-size: 1em;
   margin: auto;
-  /* margin-inline-start:auto;
-  margin-inline-end: auto;
-  margin-block-start: auto;
-  margin-block-end: auto; */
-  padding: 20px;
+  padding: 1.5em;
 }
 .circular {
   border-radius: 100%;
@@ -78,8 +69,8 @@ h4 {
 }
 .dp {
   display: block;
-  width: 150px;
-  padding: 10px;
+  width: 10em;
+  padding: 0.6em;
 }
 
 .light {
@@ -93,12 +84,12 @@ h4 {
   /* font-family: Gill Sans, sans-serif; */
   font-family: 'Quicksand', sans-serif;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 1.5em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 10px;
+  padding: 0.6em;
   width: 50%
 }
 .button {
