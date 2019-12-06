@@ -3,24 +3,29 @@
   background-color: #36b5b0;
   padding: 1em;
   margin: auto;
+  width: 100%
 }
 .second-container {
   background-color: #9dd8c8;
   padding: 1em;
   margin: auto;
+  width: 100%
 }
 .third-container {
   background-color: #f09595;
   padding: 1em;
   margin: auto;
+  width: 100%
 }
 .fourth-container {
   background-color: #fcf5b0;
   padding: 0.6em;
   margin: auto;
+  width: 100%
 }
 body {
-  margin: 0px
+  margin: 0px;
+  font-family: 'Quicksand', sans-serif;
 }
 hr {
   background-color: none;
@@ -31,7 +36,6 @@ hr {
   width: 3%
 }
 h1 {
-  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 1em;
   margin: auto;
@@ -41,7 +45,6 @@ h3 {
   padding: 1em;
   display: inline-block;
   position: relative;
-  font-family: 'Quicksand', sans-serif;
   font-weight: 600 ;
   font-size: 1em;
   margin: auto;
@@ -49,8 +52,6 @@ h3 {
 h4 {
   display: inline-block;
   position: relative;
-  /* font-family: Gill Sans, sans-serif; */
-  font-family: 'Quicksand', sans-serif;
   font-weight: 600 ;
   font-size: 1em;
   margin: auto;
@@ -81,8 +82,6 @@ h4 {
 }
 .para {
   display: block;
-  /* font-family: Gill Sans, sans-serif; */
-  font-family: 'Quicksand', sans-serif;
   font-weight: 100;
   font-size: 1.5em;
   margin-left: auto;
